@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['test_0',['test',['../class_del__3___source_code___classifier_experiment_1_1_classifier_algorithm.html#a9d2d2c6a6a6d3f771c6ca4e83efb5e39',1,'Del_3_SourceCode_ClassifierExperiment.ClassifierAlgorithm.test()'],['../class_del__3___source_code___classifier_experiment_1_1simple_k_n_n_classifier.html#acc1544cbb39fd2fb20c072545d86a397',1,'Del_3_SourceCode_ClassifierExperiment.simpleKNNClassifier.test()'],['../class_del__3___source_code___classifier_experiment_1_1kd_tree_k_n_n_classifier.html#a2245ce222cc9bc0e5b3bd392dc96b473',1,'Del_3_SourceCode_ClassifierExperiment.kdTreeKNNClassifier.test()']]],
+  ['textdataset_1',['TextDataSet',['../class_del__3___source_code___classifier_experiment_1_1_text_data_set.html',1,'Del_3_SourceCode_ClassifierExperiment']]],
+  ['timeseriesdataset_2',['TimeSeriesDataSet',['../class_del__3___source_code___classifier_experiment_1_1_time_series_data_set.html',1,'Del_3_SourceCode_ClassifierExperiment']]],
+  ['train_3',['train',['../class_del__3___source_code___classifier_experiment_1_1_classifier_algorithm.html#a164b1f33009498d699c07fea79e38c9f',1,'Del_3_SourceCode_ClassifierExperiment.ClassifierAlgorithm.train()'],['../class_del__3___source_code___classifier_experiment_1_1simple_k_n_n_classifier.html#a2597b99b31afd6fe8a811f7922e06c89',1,'Del_3_SourceCode_ClassifierExperiment.simpleKNNClassifier.train()'],['../class_del__3___source_code___classifier_experiment_1_1kd_tree_k_n_n_classifier.html#a655fbc9ae9f61092818a07404ebe38ff',1,'Del_3_SourceCode_ClassifierExperiment.kdTreeKNNClassifier.train()']]]
+];

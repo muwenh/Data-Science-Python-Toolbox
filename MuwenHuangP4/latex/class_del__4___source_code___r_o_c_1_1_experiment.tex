@@ -1,0 +1,115 @@
+\hypertarget{class_del__4___source_code___r_o_c_1_1_experiment}{}\doxysection{Del\+\_\+4\+\_\+\+Source\+Code\+\_\+\+ROC.\+Experiment Class Reference}
+\label{class_del__4___source_code___r_o_c_1_1_experiment}\index{Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_del__4___source_code___r_o_c_1_1_experiment_a8588ed45306d4cc66d1fb1b04eb2078b}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, dataset, labels, classifiers)
+\item 
+def \mbox{\hyperlink{class_del__4___source_code___r_o_c_1_1_experiment_a285c6876c75751cac6727021c0c3b57e}{run\+Cross\+Val}} (self, k=5)
+\item 
+def \mbox{\hyperlink{class_del__4___source_code___r_o_c_1_1_experiment_aae1cbff49d12e4347300a9376173f8c8}{score}} (self)
+\item 
+def \mbox{\hyperlink{class_del__4___source_code___r_o_c_1_1_experiment_a09a35603c8d122a547fdbc807888c5d5}{confusion\+Matrix}} (self)
+\item 
+def \mbox{\hyperlink{class_del__4___source_code___r_o_c_1_1_experiment_a6e17a20ac61191f35fa9ff930f58e2f4}{sort\+Reverse}} (self, alist)
+\item 
+def \mbox{\hyperlink{class_del__4___source_code___r_o_c_1_1_experiment_ad7eae8b09c34ef10ca1eab1b66787b52}{ROC}} (self, prediction\+\_\+probs, true\+Labels)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_ab502da3c41073d7d4cca7dda3297a6df}\label{class_del__4___source_code___r_o_c_1_1_experiment_ab502da3c41073d7d4cca7dda3297a6df}} 
+{\bfseries data}
+\item 
+\mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_a4e6265b638018f5ea217dfd1b082bee2}\label{class_del__4___source_code___r_o_c_1_1_experiment_a4e6265b638018f5ea217dfd1b082bee2}} 
+{\bfseries labels}
+\item 
+\mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_a6226cc1aebd40f1cddd6224a92f488dc}\label{class_del__4___source_code___r_o_c_1_1_experiment_a6226cc1aebd40f1cddd6224a92f488dc}} 
+{\bfseries classifiers}
+\item 
+\mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_a36aaf58f1e2356564fe6272186273b1a}\label{class_del__4___source_code___r_o_c_1_1_experiment_a36aaf58f1e2356564fe6272186273b1a}} 
+{\bfseries pred\+Labels}
+\item 
+\mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_a1eecbd7902965e20279bcb4dff94ea9e}\label{class_del__4___source_code___r_o_c_1_1_experiment_a1eecbd7902965e20279bcb4dff94ea9e}} 
+{\bfseries true}
+\item 
+\mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_ab2a1a2c58eed9b101b47c2b7957a4314}\label{class_del__4___source_code___r_o_c_1_1_experiment_ab2a1a2c58eed9b101b47c2b7957a4314}} 
+{\bfseries scores}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Perform cross validation and evaluate model performance.\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_a8588ed45306d4cc66d1fb1b04eb2078b}\label{class_del__4___source_code___r_o_c_1_1_experiment_a8588ed45306d4cc66d1fb1b04eb2078b}} 
+\index{Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Del\+\_\+4\+\_\+\+Source\+Code\+\_\+\+ROC.\+Experiment.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{dataset,  }\item[{}]{labels,  }\item[{}]{classifiers }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Initialize member attributes for the class.
+
+Keyword arguments:
+dataset -- represent a training dataset
+labels -- training labels
+classifiers -- a list of classifiers
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_a09a35603c8d122a547fdbc807888c5d5}\label{class_del__4___source_code___r_o_c_1_1_experiment_a09a35603c8d122a547fdbc807888c5d5}} 
+\index{Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}!confusionMatrix@{confusionMatrix}}
+\index{confusionMatrix@{confusionMatrix}!Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}}
+\doxysubsubsection{\texorpdfstring{confusionMatrix()}{confusionMatrix()}}
+{\footnotesize\ttfamily def Del\+\_\+4\+\_\+\+Source\+Code\+\_\+\+ROC.\+Experiment.\+confusion\+Matrix (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute and display a confusion matrix for each classifier.\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_ad7eae8b09c34ef10ca1eab1b66787b52}\label{class_del__4___source_code___r_o_c_1_1_experiment_ad7eae8b09c34ef10ca1eab1b66787b52}} 
+\index{Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}!ROC@{ROC}}
+\index{ROC@{ROC}!Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}}
+\doxysubsubsection{\texorpdfstring{ROC()}{ROC()}}
+{\footnotesize\ttfamily def Del\+\_\+4\+\_\+\+Source\+Code\+\_\+\+ROC.\+Experiment.\+ROC (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{prediction\+\_\+probs,  }\item[{}]{true\+Labels }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Produce a ROC plot. 
+Implemented according to the paper (An introduction to ROC analysis) by Tom Fawcett.
+
+Keyword arguments:
+prediction_probs -- a list of dictionaries containing prediction probabilities
+trueLabels -- a list of true labels for the test set
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_a285c6876c75751cac6727021c0c3b57e}\label{class_del__4___source_code___r_o_c_1_1_experiment_a285c6876c75751cac6727021c0c3b57e}} 
+\index{Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}!runCrossVal@{runCrossVal}}
+\index{runCrossVal@{runCrossVal}!Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}}
+\doxysubsubsection{\texorpdfstring{runCrossVal()}{runCrossVal()}}
+{\footnotesize\ttfamily def Del\+\_\+4\+\_\+\+Source\+Code\+\_\+\+ROC.\+Experiment.\+run\+Cross\+Val (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{k = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Perform a k-folds cross validation.
+
+Keyword arguments:
+k -- number of folds (default: 5)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_aae1cbff49d12e4347300a9376173f8c8}\label{class_del__4___source_code___r_o_c_1_1_experiment_aae1cbff49d12e4347300a9376173f8c8}} 
+\index{Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}!score@{score}}
+\index{score@{score}!Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}}
+\doxysubsubsection{\texorpdfstring{score()}{score()}}
+{\footnotesize\ttfamily def Del\+\_\+4\+\_\+\+Source\+Code\+\_\+\+ROC.\+Experiment.\+score (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute the accuracy of each classifier for every cross validation step.\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__4___source_code___r_o_c_1_1_experiment_a6e17a20ac61191f35fa9ff930f58e2f4}\label{class_del__4___source_code___r_o_c_1_1_experiment_a6e17a20ac61191f35fa9ff930f58e2f4}} 
+\index{Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}!sortReverse@{sortReverse}}
+\index{sortReverse@{sortReverse}!Del\_4\_SourceCode\_ROC.Experiment@{Del\_4\_SourceCode\_ROC.Experiment}}
+\doxysubsubsection{\texorpdfstring{sortReverse()}{sortReverse()}}
+{\footnotesize\ttfamily def Del\+\_\+4\+\_\+\+Source\+Code\+\_\+\+ROC.\+Experiment.\+sort\+Reverse (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{alist }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Sort an array in decreasing order with heap sort.
+
+Keyword arguments:
+alist -- an array of values
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Del\+\_\+4\+\_\+\+Source\+Code\+\_\+\+ROC.\+py\end{DoxyCompactItemize}

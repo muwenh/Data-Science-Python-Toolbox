@@ -1,0 +1,115 @@
+\hypertarget{class_del__3___source_code___classifier_experiment_1_1_qual_data_set}{}\doxysection{Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Qual\+Data\+Set Class Reference}
+\label{class_del__3___source_code___classifier_experiment_1_1_qual_data_set}\index{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}}
+Inheritance diagram for Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Qual\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_del__3___source_code___classifier_experiment_1_1_qual_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_af681ed1e127750d2d25bee3007bd7311}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename)
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_af04965f173db234d81765082c0ae82cd}{read\+From\+CSV}} (self)
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a4ff9bf5fbb65d2713e99b2154c0e3d7c}{load}} (self)
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_ae109f5226554e910cbb34ea738221137}{clean}} (self, columns, fill)
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a3c159d4cbbe01d034ea3733fd83e61ad}{explore}} (self, columns)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a564516352013882f7f22adece54ddb35}\label{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a564516352013882f7f22adece54ddb35}} 
+{\bfseries data}
+\item 
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a89199f3907db64603bbf0a15f8611374}\label{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a89199f3907db64603bbf0a15f8611374}} 
+{\bfseries filename}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}This class inherits from the parent class DataSet.
+Represent a dataset that contains qualitative data.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_af681ed1e127750d2d25bee3007bd7311}\label{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_af681ed1e127750d2d25bee3007bd7311}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Qual\+Data\+Set.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Initialize member attributes for the class.
+
+Keyword arguments:
+filename -- direct or relevant path of the input file
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_data_set_a2f2e309615a33fb850b8cd44e140e8e9}{Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Data\+Set}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_ae109f5226554e910cbb34ea738221137}\label{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_ae109f5226554e910cbb34ea738221137}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}!clean@{clean}}
+\index{clean@{clean}!Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Qual\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{columns,  }\item[{}]{fill }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Clean the input data.
+
+Keyword arguments:
+columns -- a list of column indexes to be cleaned
+fill -- method of filling in missing values, can be 'mode' or 'median'
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_data_set_a07a7c874ca2b1214bf7e03607b2a1caa}{Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Data\+Set}}.
+
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a3c159d4cbbe01d034ea3733fd83e61ad}\label{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a3c159d4cbbe01d034ea3733fd83e61ad}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}!explore@{explore}}
+\index{explore@{explore}!Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Qual\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{columns }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Explore the input data.
+
+Keyword arguments:
+columns -- a list of column indexes to be explored
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_data_set_afbff234af4866f86b80decacbf025574}{Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Data\+Set}}.
+
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a4ff9bf5fbb65d2713e99b2154c0e3d7c}\label{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_a4ff9bf5fbb65d2713e99b2154c0e3d7c}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}!load@{load}}
+\index{load@{load}!Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Qual\+Data\+Set.\+load (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get file path and file type from user input.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_data_set_ab4f5498a96a3b5d1278e2854fd702848}{Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Data\+Set}}.
+
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_af04965f173db234d81765082c0ae82cd}\label{class_del__3___source_code___classifier_experiment_1_1_qual_data_set_af04965f173db234d81765082c0ae82cd}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}!readFromCSV@{readFromCSV}}
+\index{readFromCSV@{readFromCSV}!Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet@{Del\_3\_SourceCode\_ClassifierExperiment.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{readFromCSV()}{readFromCSV()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Qual\+Data\+Set.\+read\+From\+CSV (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Read data from a CSV file.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_data_set_ab207b1bd7d5ad63a020652fa6936fc8c}{Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Data\+Set}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+py\end{DoxyCompactItemize}

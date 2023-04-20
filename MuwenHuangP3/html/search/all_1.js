@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['classifieralgorithm_0',['ClassifierAlgorithm',['../class_del__3___source_code___classifier_experiment_1_1_classifier_algorithm.html',1,'Del_3_SourceCode_ClassifierExperiment']]],
+  ['clean_1',['clean',['../class_del__3___source_code___classifier_experiment_1_1_data_set.html#a07a7c874ca2b1214bf7e03607b2a1caa',1,'Del_3_SourceCode_ClassifierExperiment.DataSet.clean()'],['../class_del__3___source_code___classifier_experiment_1_1_quant_data_set.html#a93038e1f717514c3e41457c5205d6be3',1,'Del_3_SourceCode_ClassifierExperiment.QuantDataSet.clean()'],['../class_del__3___source_code___classifier_experiment_1_1_qual_data_set.html#ae109f5226554e910cbb34ea738221137',1,'Del_3_SourceCode_ClassifierExperiment.QualDataSet.clean()'],['../class_del__3___source_code___classifier_experiment_1_1_text_data_set.html#a1a62995863ea0d16369cd745cd755078',1,'Del_3_SourceCode_ClassifierExperiment.TextDataSet.clean()'],['../class_del__3___source_code___classifier_experiment_1_1_time_series_data_set.html#aa058bfaa0bb7378fe90eb0244b5d3849',1,'Del_3_SourceCode_ClassifierExperiment.TimeSeriesDataSet.clean()']]],
+  ['confusionmatrix_2',['confusionMatrix',['../class_del__3___source_code___classifier_experiment_1_1_experiment.html#a2eaae51f82979beadb13d375402e72a4',1,'Del_3_SourceCode_ClassifierExperiment::Experiment']]]
+];

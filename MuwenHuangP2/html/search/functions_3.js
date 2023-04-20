@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['load_0',['load',['../class_del__2___source_code___data_sets_1_1_data_set.html#a3377f7aaccbd1570351131b2f8ac54df',1,'Del_2_SourceCode_DataSets.DataSet.load()'],['../class_del__2___source_code___data_sets_1_1_quant_data_set.html#a3643947e201f9000f1ebb8f835621526',1,'Del_2_SourceCode_DataSets.QuantDataSet.load()'],['../class_del__2___source_code___data_sets_1_1_qual_data_set.html#af64c32e10c571488dc9807dd702d7b3d',1,'Del_2_SourceCode_DataSets.QualDataSet.load()'],['../class_del__2___source_code___data_sets_1_1_text_data_set.html#a99a6c1f58075cfa229a18e84d6146ebe',1,'Del_2_SourceCode_DataSets.TextDataSet.load()'],['../class_del__2___source_code___data_sets_1_1_time_series_data_set.html#a3830268129c18bfaad4f0b7ebb1f8bc0',1,'Del_2_SourceCode_DataSets.TimeSeriesDataSet.load()']]]
+];

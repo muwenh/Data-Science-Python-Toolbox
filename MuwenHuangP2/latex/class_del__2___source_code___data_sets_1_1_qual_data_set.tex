@@ -1,0 +1,115 @@
+\hypertarget{class_del__2___source_code___data_sets_1_1_qual_data_set}{}\doxysection{Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Qual\+Data\+Set Class Reference}
+\label{class_del__2___source_code___data_sets_1_1_qual_data_set}\index{Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}}
+Inheritance diagram for Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Qual\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_del__2___source_code___data_sets_1_1_qual_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_qual_data_set_a12ac169bd4cdcb3197926ead652433f3}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename)
+\item 
+def \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_qual_data_set_ad75c06c064358afb834377da874c2bdc}{read\+From\+CSV}} (self)
+\item 
+def \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_qual_data_set_af64c32e10c571488dc9807dd702d7b3d}{load}} (self)
+\item 
+def \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_qual_data_set_ab8e9d18de315cb9f6de53fccf2e2787e}{clean}} (self, columns, fill)
+\item 
+def \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_qual_data_set_ab92052fcee832d8ab1f207b08cdb42b6}{explore}} (self, columns)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_del__2___source_code___data_sets_1_1_qual_data_set_a54a64244cb91b11dffc82631869afae3}\label{class_del__2___source_code___data_sets_1_1_qual_data_set_a54a64244cb91b11dffc82631869afae3}} 
+{\bfseries data}
+\item 
+\mbox{\Hypertarget{class_del__2___source_code___data_sets_1_1_qual_data_set_ae71fd8400a0fb7d62719b0bbc9f887ff}\label{class_del__2___source_code___data_sets_1_1_qual_data_set_ae71fd8400a0fb7d62719b0bbc9f887ff}} 
+{\bfseries filename}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}This class inherits from the parent class DataSet.
+Represent a dataset that contains qualitative data.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_del__2___source_code___data_sets_1_1_qual_data_set_a12ac169bd4cdcb3197926ead652433f3}\label{class_del__2___source_code___data_sets_1_1_qual_data_set_a12ac169bd4cdcb3197926ead652433f3}} 
+\index{Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Qual\+Data\+Set.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Initialize member attributes for the class.
+
+Keyword arguments:
+filename -- direct or relevant path of the input file
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_data_set_a3638da7e950dbf1cad26b0b005de8fca}{Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Data\+Set}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_del__2___source_code___data_sets_1_1_qual_data_set_ab8e9d18de315cb9f6de53fccf2e2787e}\label{class_del__2___source_code___data_sets_1_1_qual_data_set_ab8e9d18de315cb9f6de53fccf2e2787e}} 
+\index{Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}!clean@{clean}}
+\index{clean@{clean}!Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Qual\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{columns,  }\item[{}]{fill }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Clean the input data.
+
+Keyword arguments:
+columns -- a list of column indexes to be cleaned
+fill -- method of filling in missing values, can be 'mode' or 'median'
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_data_set_a3de98072187736313479ed68a2e49a8d}{Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Data\+Set}}.
+
+\mbox{\Hypertarget{class_del__2___source_code___data_sets_1_1_qual_data_set_ab92052fcee832d8ab1f207b08cdb42b6}\label{class_del__2___source_code___data_sets_1_1_qual_data_set_ab92052fcee832d8ab1f207b08cdb42b6}} 
+\index{Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}!explore@{explore}}
+\index{explore@{explore}!Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Qual\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{columns }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Explore the input data.
+
+Keyword arguments:
+columns -- a list of column indexes to be explored
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_data_set_acc2620e9950d86ae196dbee3561b3f1e}{Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Data\+Set}}.
+
+\mbox{\Hypertarget{class_del__2___source_code___data_sets_1_1_qual_data_set_af64c32e10c571488dc9807dd702d7b3d}\label{class_del__2___source_code___data_sets_1_1_qual_data_set_af64c32e10c571488dc9807dd702d7b3d}} 
+\index{Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}!load@{load}}
+\index{load@{load}!Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily def Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Qual\+Data\+Set.\+load (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get file path and file type from user input.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_data_set_a3377f7aaccbd1570351131b2f8ac54df}{Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Data\+Set}}.
+
+\mbox{\Hypertarget{class_del__2___source_code___data_sets_1_1_qual_data_set_ad75c06c064358afb834377da874c2bdc}\label{class_del__2___source_code___data_sets_1_1_qual_data_set_ad75c06c064358afb834377da874c2bdc}} 
+\index{Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}!readFromCSV@{readFromCSV}}
+\index{readFromCSV@{readFromCSV}!Del\_2\_SourceCode\_DataSets.QualDataSet@{Del\_2\_SourceCode\_DataSets.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{readFromCSV()}{readFromCSV()}}
+{\footnotesize\ttfamily def Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Qual\+Data\+Set.\+read\+From\+CSV (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Read data from a CSV file.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_del__2___source_code___data_sets_1_1_data_set_a56e32b6bed4f6092c187196c0a8647f8}{Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+Data\+Set}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Del\+\_\+2\+\_\+\+Source\+Code\+\_\+\+Data\+Sets.\+py\end{DoxyCompactItemize}

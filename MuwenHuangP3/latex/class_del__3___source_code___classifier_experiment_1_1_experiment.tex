@@ -1,0 +1,87 @@
+\hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment}{}\doxysection{Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Experiment Class Reference}
+\label{class_del__3___source_code___classifier_experiment_1_1_experiment}\index{Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_experiment_aaf2eec7adba9bb69fbbae014c87a785a}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, dataset, labels, classifiers)
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_experiment_aa86aef15baf46cfb6ab9f519d0c30ebe}{run\+Cross\+Val}} (self, k=5)
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_experiment_ac373021ba35f5c786f383aaeea7035e0}{score}} (self)
+\item 
+def \mbox{\hyperlink{class_del__3___source_code___classifier_experiment_1_1_experiment_a2eaae51f82979beadb13d375402e72a4}{confusion\+Matrix}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_a8c929d75513fe01ef96d4e6aec18ab51}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_a8c929d75513fe01ef96d4e6aec18ab51}} 
+{\bfseries data}
+\item 
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_a0d9dbc36d4ac99611a43b0695ff57745}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_a0d9dbc36d4ac99611a43b0695ff57745}} 
+{\bfseries labels}
+\item 
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_a8ab4da489f3871fbc529b255665546f0}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_a8ab4da489f3871fbc529b255665546f0}} 
+{\bfseries classifiers}
+\item 
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_a9bf41d6ead17be09c1c3ed71f948ce27}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_a9bf41d6ead17be09c1c3ed71f948ce27}} 
+{\bfseries pred\+Labels}
+\item 
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_a3cf712bb23d2a52241d7cdf72136fbed}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_a3cf712bb23d2a52241d7cdf72136fbed}} 
+{\bfseries true}
+\item 
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_ace4fcd2d88fd765c2314288824aed866}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_ace4fcd2d88fd765c2314288824aed866}} 
+{\bfseries scores}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Perform cross validation and evaluate model performance.\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_aaf2eec7adba9bb69fbbae014c87a785a}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_aaf2eec7adba9bb69fbbae014c87a785a}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Experiment.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{dataset,  }\item[{}]{labels,  }\item[{}]{classifiers }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Initialize member attributes for the class.
+
+Keyword arguments:
+dataset -- represent a training dataset
+labels -- training labels
+classifiers -- a list of classifiers
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_a2eaae51f82979beadb13d375402e72a4}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_a2eaae51f82979beadb13d375402e72a4}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}!confusionMatrix@{confusionMatrix}}
+\index{confusionMatrix@{confusionMatrix}!Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{confusionMatrix()}{confusionMatrix()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Experiment.\+confusion\+Matrix (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute and display a confusion matrix for each classifier.\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_aa86aef15baf46cfb6ab9f519d0c30ebe}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_aa86aef15baf46cfb6ab9f519d0c30ebe}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}!runCrossVal@{runCrossVal}}
+\index{runCrossVal@{runCrossVal}!Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{runCrossVal()}{runCrossVal()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Experiment.\+run\+Cross\+Val (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{k = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Perform a k-folds cross validation.
+
+Keyword arguments:
+k -- number of folds (default: 5)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__3___source_code___classifier_experiment_1_1_experiment_ac373021ba35f5c786f383aaeea7035e0}\label{class_del__3___source_code___classifier_experiment_1_1_experiment_ac373021ba35f5c786f383aaeea7035e0}} 
+\index{Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}!score@{score}}
+\index{score@{score}!Del\_3\_SourceCode\_ClassifierExperiment.Experiment@{Del\_3\_SourceCode\_ClassifierExperiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{score()}{score()}}
+{\footnotesize\ttfamily def Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+Experiment.\+score (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute the accuracy of each classifier for every cross validation step.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Del\+\_\+3\+\_\+\+Source\+Code\+\_\+\+Classifier\+Experiment.\+py\end{DoxyCompactItemize}

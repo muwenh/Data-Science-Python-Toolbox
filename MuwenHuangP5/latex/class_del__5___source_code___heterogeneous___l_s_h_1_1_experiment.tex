@@ -1,0 +1,115 @@
+\hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment}{}\doxysection{Del\+\_\+5\+\_\+\+Source\+Code\+\_\+\+Heterogeneous\+\_\+\+LSH.\+Experiment Class Reference}
+\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment}\index{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_aa76c5e1492950e654a1489a1a702740a}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, dataset, labels, classifiers)
+\item 
+def \mbox{\hyperlink{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_adb4985ee2c988a3106b14d78e3fa6e7e}{run\+Cross\+Val}} (self, k=5)
+\item 
+def \mbox{\hyperlink{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a5b61c2f5b98449c535f846f9048351e5}{score}} (self)
+\item 
+def \mbox{\hyperlink{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a1cf37870456e5d45c27c308e8d2c2f5a}{confusion\+Matrix}} (self)
+\item 
+def \mbox{\hyperlink{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a46eb54c996f8c90f67813242fba50ff4}{sort\+Reverse}} (self, alist)
+\item 
+def \mbox{\hyperlink{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_aca39023a3d8b3b5499b0c5e9893d7803}{ROC}} (self, prediction\+\_\+probs, true\+Labels)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_ab95be74337f0d8cf5823d5c7af0b3e09}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_ab95be74337f0d8cf5823d5c7af0b3e09}} 
+{\bfseries data}
+\item 
+\mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a5e1c2c2f2185b5219b223622f8002f94}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a5e1c2c2f2185b5219b223622f8002f94}} 
+{\bfseries labels}
+\item 
+\mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a5f9283a86ed3292c8299761cb4c4bd0d}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a5f9283a86ed3292c8299761cb4c4bd0d}} 
+{\bfseries classifiers}
+\item 
+\mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_afb734715c931eb7c6293cbd9fc93258a}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_afb734715c931eb7c6293cbd9fc93258a}} 
+{\bfseries pred\+Labels}
+\item 
+\mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a59b0da3155ed36490c418bf92086d6b2}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a59b0da3155ed36490c418bf92086d6b2}} 
+{\bfseries true}
+\item 
+\mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_ad4901e81ba00205f0b05716ff5e7a938}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_ad4901e81ba00205f0b05716ff5e7a938}} 
+{\bfseries scores}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Perform cross validation and evaluate model performance.\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_aa76c5e1492950e654a1489a1a702740a}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_aa76c5e1492950e654a1489a1a702740a}} 
+\index{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Del\+\_\+5\+\_\+\+Source\+Code\+\_\+\+Heterogeneous\+\_\+\+LSH.\+Experiment.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{dataset,  }\item[{}]{labels,  }\item[{}]{classifiers }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Initialize member attributes for the class.
+
+Keyword arguments:
+dataset -- represent a training dataset
+labels -- training labels
+classifiers -- a list of classifiers
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a1cf37870456e5d45c27c308e8d2c2f5a}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a1cf37870456e5d45c27c308e8d2c2f5a}} 
+\index{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}!confusionMatrix@{confusionMatrix}}
+\index{confusionMatrix@{confusionMatrix}!Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}}
+\doxysubsubsection{\texorpdfstring{confusionMatrix()}{confusionMatrix()}}
+{\footnotesize\ttfamily def Del\+\_\+5\+\_\+\+Source\+Code\+\_\+\+Heterogeneous\+\_\+\+LSH.\+Experiment.\+confusion\+Matrix (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute and display a confusion matrix for each classifier.\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_aca39023a3d8b3b5499b0c5e9893d7803}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_aca39023a3d8b3b5499b0c5e9893d7803}} 
+\index{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}!ROC@{ROC}}
+\index{ROC@{ROC}!Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}}
+\doxysubsubsection{\texorpdfstring{ROC()}{ROC()}}
+{\footnotesize\ttfamily def Del\+\_\+5\+\_\+\+Source\+Code\+\_\+\+Heterogeneous\+\_\+\+LSH.\+Experiment.\+ROC (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{prediction\+\_\+probs,  }\item[{}]{true\+Labels }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Produce a ROC plot. 
+Implemented according to the paper (An introduction to ROC analysis) by Tom Fawcett.
+
+Keyword arguments:
+prediction_probs -- a list of dictionaries containing prediction probabilities
+trueLabels -- a list of true labels for the test set
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_adb4985ee2c988a3106b14d78e3fa6e7e}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_adb4985ee2c988a3106b14d78e3fa6e7e}} 
+\index{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}!runCrossVal@{runCrossVal}}
+\index{runCrossVal@{runCrossVal}!Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}}
+\doxysubsubsection{\texorpdfstring{runCrossVal()}{runCrossVal()}}
+{\footnotesize\ttfamily def Del\+\_\+5\+\_\+\+Source\+Code\+\_\+\+Heterogeneous\+\_\+\+LSH.\+Experiment.\+run\+Cross\+Val (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{k = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Perform a k-folds cross validation.
+
+Keyword arguments:
+k -- number of folds (default: 5)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a5b61c2f5b98449c535f846f9048351e5}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a5b61c2f5b98449c535f846f9048351e5}} 
+\index{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}!score@{score}}
+\index{score@{score}!Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}}
+\doxysubsubsection{\texorpdfstring{score()}{score()}}
+{\footnotesize\ttfamily def Del\+\_\+5\+\_\+\+Source\+Code\+\_\+\+Heterogeneous\+\_\+\+LSH.\+Experiment.\+score (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute the accuracy of each classifier for every cross validation step.\end{DoxyVerb}
+ \mbox{\Hypertarget{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a46eb54c996f8c90f67813242fba50ff4}\label{class_del__5___source_code___heterogeneous___l_s_h_1_1_experiment_a46eb54c996f8c90f67813242fba50ff4}} 
+\index{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}!sortReverse@{sortReverse}}
+\index{sortReverse@{sortReverse}!Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment@{Del\_5\_SourceCode\_Heterogeneous\_LSH.Experiment}}
+\doxysubsubsection{\texorpdfstring{sortReverse()}{sortReverse()}}
+{\footnotesize\ttfamily def Del\+\_\+5\+\_\+\+Source\+Code\+\_\+\+Heterogeneous\+\_\+\+LSH.\+Experiment.\+sort\+Reverse (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{alist }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Sort an array in decreasing order with heap sort.
+
+Keyword arguments:
+alist -- an array of values
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Del\+\_\+5\+\_\+\+Source\+Code\+\_\+\+Heterogeneous\+\_\+\+LSH.\+py\end{DoxyCompactItemize}
